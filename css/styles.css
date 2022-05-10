@@ -79,6 +79,16 @@ header {
 }
 
 /* Main */
+
+h3 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Main: .main-header */
 .main-header {
   display: inline-block;
   position: relative;
@@ -98,4 +108,124 @@ header {
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+}
+
+/* Main: .main-summary */
+.main-summary {
+  margin: 5rem 0;
+}
+
+#img-main-summary {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 3em auto;
+}
+
+.main-summary > div {
+  width: 80%;
+  margin: 1rem auto;
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: hsl(0, 0%, 55%);
+}
+
+/* Main: .portfolio-list */
+.portfolio-container {
+  width: 90%;
+  margin: 0 auto 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio-container > h3 {
+  margin: 3rem auto;
+}
+
+.portfolio-list > li {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.portfolio-list > li > img {
+  display: block;
+}
+
+.portfolio-list > li > h4 {
+  position: absolute;
+  display: flex;
+  align-items: end;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  padding: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  width: 55%;
+  background: linear-gradient(to right, hsla(0, 0%, 0%, .5), transparent);
+}
+
+.portfolio-container > button {
+  width: 50%;
+  padding: 0.75rem 2.5rem;
+  border: 2px solid hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-family: 'Alata', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin: 1rem auto;
+}
+
+/* Footer */
+
+footer {
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+#footer-logo {
+  width: 150px;
+  height: auto;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.footer-nav-list > li {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.5rem;
+}
+
+.footer-nav-list a, .footer-social-media-list img {
+  cursor: pointer;
+}
+
+.footer-social-media-list {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.footer-social-media-list img {
+  width: 24px;
+  height: auto;
+}
+
+footer > div {
+  color: hsl(0, 0%, 55%);
+  font-size: 1rem;
 }
