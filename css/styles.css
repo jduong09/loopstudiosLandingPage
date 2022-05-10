@@ -1,0 +1,101 @@
+/* 
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+body {
+  min-height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  position: relative;
+}
+
+.hide {
+  display: none !important;
+}
+
+#menu-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: hsl(0, 0%, 0%);
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 90%;
+}
+
+#logo {
+  width: auto;
+  height: 32px;
+}
+/* Header: menu-list */
+#menu-hamburger {
+  width: auto;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#icon-close {
+  width: auto;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#menu-list {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+#menu-list > li {
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#menu-list > li > a {
+  cursor: pointer;
+}
+
+/* Main */
+.main-header {
+  display: inline-block;
+  position: relative;
+}
+
+.main-header > h2 {
+  font-size: 2.6rem;
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid hsl(0, 0%, 100%);
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
