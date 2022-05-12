@@ -17,4 +17,16 @@ document.addEventListener('DOMContentLoaded', () => {
     menuList.classList.add('hide');
     menuBackground.classList.add('hide');
   });
+
+  if (window.innerWidth >= '745') {
+    menuList.classList.remove('hide');
+  }
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= '745') {
+      menuList.classList.remove('hide');
+    } else {
+      menuList.classList.add('hide');
+    }
+  })
 });
