@@ -117,6 +117,7 @@ h3 {
 .main-header {
   display: inline-block;
   position: relative;
+  width: 100%;
 }
 
 .main-header > h2 {
@@ -313,7 +314,7 @@ footer > div {
   }
 
   .main-header > h2 {
-    font-size: 4.5rem;
+    font-size: 2.75rem;
     transform: translateY(-50%);
     left: 10%;
     top: 55%;
@@ -338,7 +339,7 @@ footer > div {
     background-color: white;
     width: 40%;
     right: 10%;
-    padding: 6rem 0 0 6rem;
+    padding: 3rem 0 0 3rem;
   }
 
   .main-summary > div > h3 {
@@ -346,7 +347,7 @@ footer > div {
     margin: 0;
     margin-bottom: 1rem;
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .main-summary > div > div {
@@ -425,7 +426,7 @@ footer > div {
   }
 
   .portfolio-list > li > h4 {
-    padding: 0rem 0 2.5rem 3rem;
+    padding: 0rem 0 .5rem 1rem;
     font-size: 2rem;
     width: 75%;
   }
@@ -477,5 +478,19 @@ footer > div {
 }
 
 @media (min-width: 1200px) {
-  
+  .main-header > h2 {
+    font-size: 4.5rem;
+  }
+
+  .main-summary > div > h3 {
+    font-size: 3rem;
+  }
+
+  .main-summary > div {
+    padding: 6rem 0 0 6rem;
+  }
+
+  .portfolio-list > li > h4 {
+    padding: 0rem 0 2.5rem 3rem;
+  }
 }
